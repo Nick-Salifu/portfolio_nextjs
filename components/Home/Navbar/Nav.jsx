@@ -22,7 +22,7 @@ const Nav = ({openNav}) => {
   }, [])
 
   return (
-    <div className={`w-full h-[12vh] ${navBg ? 'bg-[#0f142ed9] shadow-md' : 'fixed'} fixed transition-all duration-200 z-10000`}>
+    <div className={`w-full h-[12vh] ${navBg ? 'bg-[#0f142ed9] shadow-md' : 'fixed'} fixed transition-all duration-200 z-[10000]`}>
         <div className="flex items-center justify-between h-full w-[90%] mx-auto">
           
           {/* Logo */}

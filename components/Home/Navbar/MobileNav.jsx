@@ -9,11 +9,11 @@ const MobileNav = ({showNav, closeNav}) => {
   return (
     <div>
       {/* Overlay */}
-      <div className={`fixed inset-0 ${navOpen} transform transition-all right-0 duration-500 bg-black z-100002 opacity-70 w-full h-screen`}>
+      <div className={`fixed inset-0 ${navOpen} transform transition-all right-0 duration-500 bg-black z-[100002] opacity-70 w-full h-screen`}>
       </div>
 
       {/* Navlink */}
-      <div className={`fixed text-white ${navOpen} flex flex-col justify-center h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-cyan-800 space-y-6 right-0 z-100050`}>
+      <div className={`fixed text-white ${navOpen} flex flex-col justify-center h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-cyan-800 space-y-6 right-0 z-[100050]`}>
         {NavLinks.map((link) => {
           return (
             <Link key={link.id} href={link.url}>
