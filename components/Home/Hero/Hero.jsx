@@ -3,11 +3,13 @@
 import Image from "next/image"
 import Typewriter from "typewriter-effect"
 import { BsArrowRight } from "react-icons/bs"
+import ParticlesHero from "./ParticleBackground"
 
 
 const Hero = () => {
   return (
     <div className="relative flex flex-col items-center justify-center h-screen text-white overflow-hidden">
+      <ParticlesHero />
         <div className="relative flex flex-col items-center z-10">
             <Image src="/images/n1.JPG" alt="image" width={150} height={150} className="rounded-full border-8 border-[#0c0c48aa]" />
             <h1 className="text-2xl sm:text-4xl md:text-5xl mt-6 text-center font-bold tracking-wide">
