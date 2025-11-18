@@ -9,9 +9,9 @@ const Blog = () => {
         </h1>
         <div className="w-[70%] mx-auto grid grid-cols-1 xl:grid-cols-3 xl:gap-4 gap-10 items-center mt-16">
             <div 
-                // data-aos="fade-right" 
-                // data-aos-anchor-placement="top-center" 
-                // data-aos-delay="0"
+                data-aos="fade-right" 
+                data-aos-anchor-placement="top-center" 
+                data-aos-delay="0"
             >
                <BlogCard 
                     image="/images/b1.jpg" 
@@ -20,9 +20,9 @@ const Blog = () => {
             </div>
             
             <div 
-                // data-aos="fade-right" 
-                // data-aos-anchor-placement="top-center" 
-                // data-aos-delay="100"
+                data-aos="fade-right" 
+                data-aos-anchor-placement="top-center" 
+                data-aos-delay="100"
             >     
                 <BlogCard 
                     image="/images/b2.jpg" 
@@ -31,9 +31,9 @@ const Blog = () => {
              </div>
             
             <div
-                // data-aos="fade-right" 
-                // data-aos-anchor-placement="top-center" 
-                // data-aos-delay="100"
+                data-aos="fade-right" 
+                data-aos-anchor-placement="top-center" 
+                data-aos-delay="100"
             >
                <BlogCard 
                     image="/images/b3.jpg" 

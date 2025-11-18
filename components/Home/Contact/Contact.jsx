@@ -86,9 +86,9 @@ const Contact = () => {
                 {/* Form Section */}
                 <form
                     className="p-5 md:p-10 rounded-lg bg-[#131332]"
-                    // data-aos="zoom-in" 
-                    // data-aos-anchor-placement="top-center" 
-                    // data-aos-delay="100"
+                    data-aos="zoom-in" 
+                    data-aos-anchor-placement="top-center" 
+                    data-aos-delay="100"
                     onSubmit={onSubmit}
                 >
                     <input type="text" placeholder="Name" className="px-4 py-3.5 text-white outline-none rounded-md w-full bg-[#363659] placeholder:text-white/70" name="name" />

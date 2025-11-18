@@ -45,8 +45,8 @@ const Skills = () => {
                 return(
                    <Tilt key={skill.name} scale={1.2} transitionSpeed={400}>
                         <div
-                            // data-aos="flip-right" data-aos-anchor-placement="top-center"
-                            // data-aos-delay={i * 100}
+                            data-aos="flip-right" data-aos-anchor-placement="top-center"
+                            data-aos-delay={i * 100}
                             className="flex flex-col items-center justify-center bg-[#14134145] text-center w-32 h-38 rounded-3xl">
                             <div className="text-5xl mb-4 text-gray-300">
                                 {skill.icon}
