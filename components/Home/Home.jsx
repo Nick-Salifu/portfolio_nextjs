@@ -9,22 +9,22 @@ import Projects from "./Projects/Projects"
 import Resume from "./Resume/Resume"
 import Services from "./Services/Services"
 import Skills from "./Skills/Skills"
-import Aos from "aos"
-import 'aos/dist/aos.css'
+
 
 const Home = () => {
-  useEffect(() => {
-    const initAos = async () => {
-      await import("aos");
-      Aos.init({
+ useEffect(() => {
+    const initAOS = async () => {
+      const AOS = (await import("aos")).default;
+      await import("aos/dist/aos.css");
+      AOS.init({
         duration: 1000,
         easing: "ease",
         once: true,
         anchorPlacement: "top-bottom"
-      })
+      });
     };
-    initAos()
-  }, [])
+    initAOS();
+  }, []);
 
   return (
     <div className="overflow-hidden">
