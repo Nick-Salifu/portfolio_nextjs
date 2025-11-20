@@ -6,7 +6,7 @@ const Projects = () => {
   return (
     <div id="works" className="py-16">
         <h1 className="text-center text-2xl md:text-4xl xl:text-5xl text-white font-bold">
-            A small selection of recent 
+            A small selection of recent <br /> 
             <span className="text-cyan-300">projects</span>
         </h1>
         <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">

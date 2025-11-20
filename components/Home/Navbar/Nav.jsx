@@ -46,10 +46,14 @@ const Nav = ({openNav}) => {
           
           {/* Button */}
           <div className="flex items-center space-x-4">
-            <button className="px-8 py-3.5 text-white text-sm rounded-lg bg-blue-800 hover:bg-blue-900 flex items-center space-x-2 transition-all duration-300 cursor-pointer">
+            <a 
+              href="https://drive.google.com/file/d/1QvxVLXbDn-gPU2HemZCfw6CCOMzr-CsB/view?usp=sharing" target="_blank" 
+              rel="noopener noreferrer"
+              download
+              className="px-8 py-3.5 text-white text-sm rounded-lg bg-blue-800 hover:bg-blue-900 flex items-center space-x-2 transition-all duration-300 cursor-pointer">
               <BiDownload className="w-5 h-5" />
               <span>Download CV</span>
-            </button>
+            </a>
             
             {/* Hamburger Menu */}
             <HiBars3BottomRight onClick={openNav} className="w-8 h-8 cursor-pointer text-white lg:hidden" />
