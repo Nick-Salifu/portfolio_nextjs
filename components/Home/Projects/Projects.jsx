@@ -9,7 +9,7 @@ const Projects = () => {
             A small selection of recent <br /> 
             <span className="text-cyan-300">projects</span>
         </h1>
-        <div className="w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
+        <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
             {/* First Project */}
             <div>
                 <Image 
@@ -23,6 +23,7 @@ const Projects = () => {
                     className="rounded-lg" 
                 />
                 <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Property Listing Website</h1>
+                <p className="text-gray-300 my-2 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, porro. Sapiente id labore iure laborum laborum</p>
                 <a 
                     href="https://spike-properties.vercel.app"
                     target="_blank"
@@ -45,6 +46,7 @@ const Projects = () => {
                     className="rounded-lg" 
                 />
                 <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Property Listing Website</h1>
+                <p className="text-gray-300 my-2 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, porro. Sapiente id labore iure laborum laborum</p>
                 <a 
                     href="https://spike-properties.vercel.app"
                     target="_blank"
@@ -67,6 +69,7 @@ const Projects = () => {
                     className="rounded-lg" 
                 />
                 <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Property Listing Website</h1>
+                <p className="text-gray-300 my-2 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, porro. Sapiente id labore iure laborum laborum</p>
                 <a 
                     href="https://spike-properties.vercel.app"
                     target="_blank"
@@ -89,6 +92,7 @@ const Projects = () => {
                     className="rounded-lg" 
                 />
                 <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">My Portfolio</h1>
+                <p className="text-gray-300 my-2 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, porro. Sapiente id labore iure laborum laborum</p>
                 <a 
                     href="https://spike-properties.vercel.app"
                     target="_blank"

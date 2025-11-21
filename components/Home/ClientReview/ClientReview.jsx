@@ -29,7 +29,7 @@ const ClientReview = () => {
             Kind works from satisfied <br /> 
             <span className="text-cyan-200">clients</span>
         </h1>
-        <div className="mt-16 w-[70%] mx-auto">
+        <div className="mt-16 w-[90%] sm:w-[70%] mx-auto">
             <Carousel
                 showDots={false}
                 responsive={responsive}
