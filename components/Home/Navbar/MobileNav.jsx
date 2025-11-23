@@ -16,7 +16,7 @@ const MobileNav = ({showNav, closeNav}) => {
       <div className={`fixed text-white ${navOpen} flex flex-col justify-center h-full transform transition-all duration-500 delay-300 w-[80%] sm:w-[60%] bg-cyan-800 space-y-6 right-0 z-[100050]`}>
         {NavLinks.map((link) => {
           return (
-            <Link key={link.id} href={link.url}>
+            <Link key={link.id} href={link.url} onClick={closeNav}>
               <p className="text-white text-xl w-fit ml-12 border-b-[1.5px] pb-1 border-white sm:text-3xl">{link.label}</p>
             </Link>
           )
