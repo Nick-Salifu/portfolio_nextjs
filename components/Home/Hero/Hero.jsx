@@ -19,11 +19,11 @@ const Hero = () => {
               data-aos="fade-up"
               />
             
-            <h1 data-aos="fade-up" data-aos-delay="200" className="text-2xl sm:text-4xl lg:text-5xl mt-6 text-center font-bold tracking-wide">
-                Building modern web solutions,<br /> brands {" "} 
+            <h1 data-aos="fade-up" data-aos-delay="200" className="text-4xl lg:text-5xl mt-6 text-center font-bold tracking-wide">
+                Building modern web solutions,<br className="hidden sm:block" /> brands {" "} 
                 <span className="text-cyan-200">and experiences.</span>
             </h1>
-            <h2 data-aos="fade-up" data-aos-delay="400" className="mt-4 text-sm px-2 text-center sm:text-2xl font-medium flex items-center">
+            <h2 data-aos="fade-up" data-aos-delay="400" className="mt-4 text-base px-2 text-center sm:text-2xl font-medium flex items-center">
                 Hi I am Nick - A passionate
                 <span className="text-cyan-200 font-bold">
                       <Typerwriter options={{
