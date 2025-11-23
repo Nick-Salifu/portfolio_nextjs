@@ -11,11 +11,12 @@ const Projects = () => {
         </h1>
         <div className="w-[90%] sm:w-[70%] mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 mt-16">
             {/* First Project */}
-            <div>
-                <Image 
-                    data-aos="fade-up" 
-                    data-aos-anchor-placement="top-center" 
-                    data-aos-delay="0" 
+            <div 
+                data-aos="fade-up" 
+                data-aos-anchor-placement="top-center" 
+                data-aos-delay="0"
+            >
+                <Image  
                     src="/images/spike.png" 
                     alt="image" 
                     width={800} 
@@ -34,11 +35,12 @@ const Projects = () => {
                 </a>
             </div>
             {/* Second Project */}
-            <div>
-                <Image 
-                    data-aos="fade-up" 
-                    data-aos-anchor-placement="top-center" 
-                    data-aos-delay="100" 
+            <div 
+                data-aos="fade-up" 
+                data-aos-anchor-placement="top-center" 
+                data-aos-delay="100"
+            >
+                <Image  
                     src="/images/spike.png" 
                     alt="image" 
                     width={800} 
@@ -57,11 +59,12 @@ const Projects = () => {
                 </a>
             </div>
             {/* Third Project */}
-            <div>
-                <Image 
-                    data-aos="fade-up" 
-                    data-aos-anchor-placement="top-center" 
-                    data-aos-delay="200" 
+            <div 
+                data-aos="fade-up" 
+                data-aos-anchor-placement="top-center" 
+                data-aos-delay="200"
+            >
+                <Image  
                     src="/images/spike.png" 
                     alt="image" 
                     width={800} 
@@ -80,11 +83,12 @@ const Projects = () => {
                 </a>
             </div>
             {/* Fourth Project */}
-            <div>
-                <Image 
-                    data-aos="fade-up" 
-                    data-aos-anchor-placement="top-center" 
-                    data-aos-delay="300" 
+            <div 
+                data-aos="fade-up" 
+                data-aos-anchor-placement="top-center" 
+                data-aos-delay="300"
+            >
+                <Image  
                     src="/images/portfolio.png" 
                     alt="image" 
                     width={800} 
