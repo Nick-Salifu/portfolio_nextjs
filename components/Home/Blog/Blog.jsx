@@ -3,7 +3,7 @@ import BlogCard from "./BlogCard"
 const Blog = () => {
   return (
     <div className="py-16">
-        <h1 className="text-center text-2xl md:text-4xl xl:text-5xl text-white font-bold">
+        <h1 className="text-center text-3xl md:text-4xl xl:text-5xl text-white font-bold">
              My Latest {" "} 
             <span className="text-cyan-200">Blogs</span>
         </h1>

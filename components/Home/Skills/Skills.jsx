@@ -36,7 +36,7 @@ const skills = [
 const Skills = () => {
   return (
     <div id="skills" className="text-white py-16">
-        <h1 className="text-center text-2xl md:text-4xl xl:text-5xl text-white font-bold">
+        <h1 className="text-center text-3xl md:text-4xl xl:text-5xl text-white font-bold">
             My <span className="text-cyan-300">Skills</span>
         </h1>
         

@@ -5,7 +5,7 @@ import { BsArrowBarRight } from "react-icons/bs"
 const Projects = () => {
   return (
     <div id="works" className="py-16">
-        <h1 className="text-center text-2xl md:text-4xl xl:text-5xl text-white font-bold">
+        <h1 className="text-center text-3xl md:text-4xl xl:text-5xl text-white font-bold">
             A small selection of recent <br /> 
             <span className="text-cyan-300">projects</span>
         </h1>

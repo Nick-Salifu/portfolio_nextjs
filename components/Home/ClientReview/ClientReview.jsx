@@ -25,7 +25,7 @@ import ClientReviewCard from "./ClientReviewCard"
 const ClientReview = () => {
   return (
     <div id="testimonials" className="py-16">
-        <h1 className="text-center text-2xl md:text-4xl xl:text-5xl text-white font-bold">
+        <h1 className="text-center text-3xl md:text-4xl xl:text-5xl text-white font-bold">
             Kind works from satisfied <br /> 
             <span className="text-cyan-200">clients</span>
         </h1>
