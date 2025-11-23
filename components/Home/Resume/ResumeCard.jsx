@@ -14,7 +14,7 @@ const ResumeCard = ({Icon, role, date, company, children}) => {
                 )}
                 <h1 className="text-gray-200 text-xl sm:text-2xl font-semibold">{role}</h1>
                   <h2 className="text-lg font-semibold text-cyan-200">{company}</h2>
-                <p className="text-gray-300 text-sm sm:text-base pt-3">
+                <p className="text-gray-300 text-[15px] sm:text-base pt-3">
                   {children}
                 </p>
             </div>
