@@ -41,16 +41,16 @@ const Projects = () => {
                 data-aos-delay="100"
             >
                 <Image  
-                    src="/images/spike.png" 
+                    src="/images/e1.png" 
                     alt="image" 
                     width={800} 
                     height={650} 
                     className="rounded-lg" 
                 />
-                <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">Property Listing Website</h1>
+                <h1 className="mt-4 text-xl sm:text-2xl font-semibold text-white">E-Commerce Website</h1>
                 <p className="text-gray-300 my-2 text-sm">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima, porro. Sapiente id labore iure laborum laborum</p>
                 <a 
-                    href="https://spike-properties.vercel.app"
+                    href="https://spike-livid.vercel.app/"
                     target="_blank"
                     className="px-3 py-1 mt-2 bg-blue-500 rounded-full text-gray-300 hover:bg-blue-600 flex items-center space-x-2 transition-all duration-300 w-20"
                 >
